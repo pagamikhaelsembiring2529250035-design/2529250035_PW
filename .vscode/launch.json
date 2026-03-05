@@ -7,8 +7,8 @@
         {
             "type": "chrome",
             "request": "launch",
-            "name": "Open Paga-Latihan-html.html",
-            "file": "d:\\paga\\2529250035_PW\\Tugas 2\\Paga-Latihan-html.html"
+            "name": "Open sejarahindo.html",
+            "file": "d:\\paga\\2529250035_PW\\tugas2\\sejarahindo.html"
         }
     ]
 }
