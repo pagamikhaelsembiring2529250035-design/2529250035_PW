@@ -1,0 +1,99 @@
+/* style.css */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+ body{
+    background-color: moccasin;
+ }
+
+/* HEADER */
+.header {
+  background: black;
+  padding: 20px;
+  border-radius: 15px;
+  text-align:left;
+  margin-bottom: 20px;
+}
+
+.header img {
+  width: 200px;
+}
+
+h1 {
+  margin: 20px 0 10px;
+}
+
+/* GRID */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center; /* ini bikin tengah di HP */
+}
+
+.card {
+  flex: 1 1 calc(25% - 15px); /* desktop 4 kolom */
+  max-width: calc(25% - 15px);
+}
+
+.card img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.card h2 {
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+/* DOCUMENTARIES */
+.doc img {
+    text-align: left;
+  border-radius: 15px;
+}
+
+/* SYNC SECTION */
+.sync {
+  background: black;
+  color: white;
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.btn {
+  background: white;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+/* TABLET */
+@media (max-width: 991px) {
+  .card {
+    flex: 1 1 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+  }
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+  .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
