@@ -4,7 +4,7 @@ fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
   .then(Response => Response.json())
   .then(data => {
     container.innerHTML = '';               // clear spinner
-    data.categories.forEach(Response => {
+    data.categories.forEach(Response => { // ada array
       const col = document.createElement('div');
       col.className = 'col-md-4 d-flex';
 
@@ -21,3 +21,4 @@ fetch('https://www.themealdb.com/api/json/v1/1/categories.php')
       container.appendChild(col);
     });
   })
+  
